@@ -1,12 +1,12 @@
 import Login from './components/Login';
-import './App.css';
+// import {ReactComponent as kidsmagz} from "./images/kidsmagz.svg";
+import Imag from "./images/kidsmagz.svg"
 
 function App() {
-  return ( 
-    <div className="App">
-      <Login />
-    </div>
-  );
+  return <div> 
+    <Login />
+    <img src={Imag} alt="" />
+  </div>;
 }
 
 export default App;
